@@ -1,0 +1,16 @@
+const arr=[1,4,7,321,0, -32,-44];
+const posArr=[];
+const getPositive=(array)=>
+{
+for ( let i=0; i<arr.length; i++)
+{
+    if (arr[i]>=0)
+    {
+        posArr.push(arr[i]);
+    }
+
+}
+}
+getPositive(arr);
+console.log(posArr);
+console.log("that is a modification");
