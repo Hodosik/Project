@@ -21,5 +21,5 @@ function generateThirdWord() {
  }
 
  for (let i = 0; i < 3; i++) {
-  console.log(generateFirstWord() + " " + generateSecondWord() + " " + generateThirdWord());
- }
+  console.log("This is your No. " + (i + 1) + " wise message: " + generateFirstWord() + " " + generateSecondWord() + " " + generateThirdWord());
+   }
