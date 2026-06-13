@@ -23,3 +23,4 @@ function generateThirdWord() {
  for (let i = 0; i < 3; i++) {
   console.log("This is your No. " + (i + 1) + " wise message: " + generateFirstWord() + " " + generateSecondWord() + " " + generateThirdWord());
    }
+console.log ("That is cool stuff, right?");
